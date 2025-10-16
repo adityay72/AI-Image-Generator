@@ -1,0 +1,28 @@
+header {
+  padding: 30px;
+}
+
+.search-section {
+  padding: 30px;
+}
+
+.img-section {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: space-around;
+}
+
+.img-section img {
+  margin: 3px;
+  min-width: 250px;
+  max-width: 30%;
+  flex-grow: 1;
+}
+
+@media(max-width:556px) {
+  .img-section img {
+    max-width: 100%;
+  }
+}

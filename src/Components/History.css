@@ -1,0 +1,9 @@
+.imageItem img {
+    width: 230px;
+
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: space-between;
+}
